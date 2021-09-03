@@ -1,21 +1,25 @@
 :root{
-    --background: #242582; 
+    --background: #3D4849; 
+
+}
+html{
+    scroll-behavior: smooth;
 
 }
 
 body{
-    background-color: #242582;
+    background-color: var(--background);
     color: white;
     font: 1.9rem Inconsolata, monospace;
-    scroll-behavior: smooth;
 }
 
 
-header{
+header h1{
     text-align: center;
-    color: #F64C72;
-    display: inline;
+    color: white;
+    display: block;
     vertical-align: middle;
+    font: 1.9rem Inconsolata, monospace;
 
 }
 
@@ -27,29 +31,85 @@ nav{
     color: white;
 }
 
+.previous_work{
+    text-align: center;
+    color: white;
+    display: block;
+    font: 1.3rem Inconsolata, monospace;
+    font-size: 55%;
+    margin-top: 10px;
+    
+}
+
 footer{
     margin-top: 2%;
     vertical-align: middle;
     height: 50 width: 100%;
     text-align: center;
     font-size: 0.8em;
-    color: #F64C72;
+    color: white;
     font: 1.3rem Inconsolata, monospace;
 }
 
 a {
-    color: #F64C72;
+    color: white;
     vertical-align: middle;
 
 }
 
-a img{
-    position: relative;
+.first_image{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    width: 10%;
-    height: 10%;
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.second_image{
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 175px;
+    width: 500px;
+    height: 200px;
+    padding-right: 500px;
+}
+
+.image_text{
+    position: relative;
+    bottom: 20px;
+    left: 17px;
+    font-size: 40%;
+    word-wrap: normal;
+}
+
+.about_me{
+    font-size: 55%;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
 
 }
+
+.about_me h1{
+    font-size: 55%;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
+    font: 1.3rem Inconsolata, monospace;
+
+}
+
+.about_me p {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
+    font: Inconsolata, monospace;
+    font-size: 1rem;
+    display: inline-block;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+
