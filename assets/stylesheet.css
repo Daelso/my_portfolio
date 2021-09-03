@@ -1,0 +1,55 @@
+:root{
+    --background: #242582; 
+
+}
+
+body{
+    background-color: #242582;
+    color: white;
+    font: 1.9rem Inconsolata, monospace;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    text-align: center;
+    color: #F64C72;
+    display: inline;
+    vertical-align: middle;
+
+}
+
+nav{
+    text-align: center;
+    font-size: 60%;
+    margin-top: 10px;
+    vertical-align: middle;
+    color: white;
+}
+
+footer{
+    margin-top: 2%;
+    vertical-align: middle;
+    height: 50 width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    color: #F64C72;
+    font: 1.3rem Inconsolata, monospace;
+}
+
+a {
+    color: #F64C72;
+    vertical-align: middle;
+
+}
+
+a img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 10%;
+    height: 10%;
+
+}
