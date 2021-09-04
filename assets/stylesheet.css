@@ -55,7 +55,7 @@ a {
 }
 a img{
 
-    display: flex;
+    display: inline-block;
     margin-left: 700px;
     margin-right: 700px;
     margin-top: 10px;
