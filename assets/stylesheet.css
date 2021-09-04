@@ -108,6 +108,15 @@ a img{
     padding-left: 250px;
 }
 
+a img:hover{
+    transition: all 0.2s ease-in-out;
+    color: rgba(255, 255, 255, 0.8);
+    background: var(--background);
+    padding: 15px 40px;
+    border-radius: 4px;
+
+}
+
 
 @media screen and (max-width: 750px) {
     .first_image,
