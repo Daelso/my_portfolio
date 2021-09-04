@@ -141,10 +141,12 @@ a img:hover{
     visibility:hidden;
     font-size: 0.8rem;
     word-wrap: break-word;
+    display: inline-block;
     }
     
     #wrapper:hover .text {
     visibility:visible;
+    display: inline-block;
     }
 
 #wrapper .text_two {
