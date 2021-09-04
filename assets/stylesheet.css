@@ -17,7 +17,6 @@ body{
 header h1{
     text-align: center;
     color: white;
-    display: block;
     vertical-align: middle;
     font: 1.9rem Inconsolata, monospace;
 
@@ -42,39 +41,36 @@ nav{
 }
 
 footer{
-    margin-top: 2%;
-    vertical-align: middle;
-    height: 50 width: 100%;
     text-align: center;
     font-size: 0.8em;
     color: white;
     font: 1.3rem Inconsolata, monospace;
+    clear: both;
+    margin-top: 450px;
 }
 
 a {
     color: white;
-    vertical-align: middle;
+
+}
+a img{
+
+    display: flex;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-top: 10px;
 
 }
 
 .first_image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    flex-direction: row;
     margin-top: 10px;
     width: 400px;
     height: 400px;
+    position: relative;
+    vertical-align: middle;
 }
 
-.second_image{
-    display: block;
-    position: relative;
-    margin-top: 10px;
-    margin-left: 175px;
-    width: 500px;
-    height: 200px;
-    padding-right: 500px;
-}
 
 .image_text{
     position: relative;
@@ -113,3 +109,18 @@ a {
 }
 
 
+@media screen and (max-width: 750px) {
+    .first_image,
+    .about_me
+    {
+      font-size: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    a img
+    {
+        margin-left: 85px;
+        margin-right: 85px;
+    }
+  }
