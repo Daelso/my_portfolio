@@ -7,7 +7,7 @@ I built this project to learn more about webpages, html, css and to improve my s
 
 I got to play around with a lot of different positioning tools in CSS and html which was fun and educative. 
 
-The most difficult part by far was getting things to look nice on both mobile and desktop.
+The most difficult part by far was getting things to look nice on both mobile and desktop. I also got to experiment with things like backgrounds images, turning images into links and using span classes and a classes.
 
 ## Usage 
 Click index.html.
