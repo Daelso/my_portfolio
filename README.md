@@ -12,7 +12,7 @@ The most difficult part by far was getting things to look nice on both mobile an
 ## Usage 
 Click index.html.
 
-#Screenshot
+## Screenshot
 ![Alt text](https://i.gyazo.com/faa325b9f4642c6326213f56335379b2.png "Desktop screenshot")
 
 ## Deployment Link
