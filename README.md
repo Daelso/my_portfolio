@@ -12,5 +12,5 @@ The code is a good bit cleaner/more readable now while maintaining the same func
 ## Usage 
 Click index.html.
 
-##Deployment Link
+## Deployment Link
 https://daelso.github.io/my_portfolio/
