@@ -118,6 +118,7 @@ a img:hover{
 
 .pfp{
     background-image: url("../assets/images/dredd.jpg");
+    background-size: contain;
     width: 230px;
     height: 230px;
     position: absolute;
@@ -179,7 +180,7 @@ a img:hover{
     .first_image,
     .about_me
     {
-      font-size: 0.5rem;
+      font-size: 1em;
     }
   }
 
@@ -204,3 +205,12 @@ a img:hover{
 
     }
     }
+
+    @media screen and (max-width: 750px) {
+        .pfp
+        {
+            margin-bottom: 50px;
+            margin-left: 5px;
+            transform: scale(0.75, 0.75);
+        }
+      }
