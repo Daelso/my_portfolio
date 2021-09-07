@@ -206,7 +206,7 @@ a img:hover{
     }
     }
 
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 780px) {
         .pfp
         {
             margin-bottom: 50px;
