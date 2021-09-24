@@ -3,53 +3,65 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>💻 Chase Murtaugh's Portfolio</title>
-  <link rel="stylesheet" href="./assets/reset.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/stylesheet.css" />
 </head>
 <body>
 
 <header>
     <h1>Welcome to Chase Murtaugh's Portfolio</h1>
-    <a href="https://github.com/Daelso" target="_blank" rel="noreferrer noopener" class="pfp"> </a>
 </header>
 
-<nav><a href="#contact">Contact me|</a><a href="#aboutme">About me|</a><a href="#previous">Previous Work</a></nav>
+<nav id="contact_me"><a href="#contact">Contact me|</a><a href="#aboutme">About me|</a><a href="#previous">Previous Work</a></nav>
 
 <section id="aboutme" class="about_me">
     <h1>About me:</h1> 
-    <p>I am a 24 year old Clemson graduate who will be attending medical school at Rowan in July. I have been programming lightly as a hobby for a few years now. I am excited to improve my web-development skills and gain a stronger grasp over programming as a whole. I mainly focus on the Dream Maker Engine, lua and C++. My main interests are video-game modding where I created mods for Space Station 13, wrote lua scripts for Garry's Mod and contributed bug-fixs in C++ to the open-source World of Warcraft private core, vMangOS. Below, you can find links to these projects.</p>
+    <p>I am a 24 year old Clemson graduate who will be attending medical school at Rowan in July. I have been programming lightly as a hobby for a few years now. I am excited to improve my web-development skills and gain a stronger grasp over programming as a whole. I mainly focus on the Dream Maker Engine, lua and C++. My main interests are video-game modding where I created mods for Space Station 13, wrote lua scripts for Garry's Mod and contributed bug-fixs in C++ to the open-source World of Warcraft private core, vMangOS. Below, you can find links to some of my works.</p>
 </section>
 
 <h2 id="previous" class="previous_work">Previous Work:</h2>
 
-<section class="first_image" id = "wrapper">
-    <a href="https://github.com/Daelso/Warhammer-IS12">
-        <img alt="Warhammer-IS12" src="./assets/images/40k.gif"
-        width="600" height="400" >
-    </a>
-    <p class="text">Warhammer SS13, my personal dream maker project.</p>
-    
-    <a href="https://github.com/vmangos">
-        <img alt="vMangOS" src="./assets/images/WoW.png"
-        width="500" height="200">
-    </a>
-    <p id="wrapper" class="text_two">vMangOS, my first foray into C++ bug-fixing.</p>
+  <div class="col-12">
+  <div class="row">
+       <div class="card" style="width: 25rem;">
+        <img class="card-img-top" style="margin-top: 5px;" src="./assets/images/40k.gif" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Space Station 13 40k</h4>
+          <p class="card-text">A popular Warhammer 40k multiplayer Space Station 13 mod made in Dream Maker. </p>
+          <a href="https://github.com/Daelso/Warhammer-IS12" id="card-link-ss13" class="btn btn-primary">Github</a>
+        </div>
+      </div>
+      <div class="card" style="width: 25rem;">
+        <img class="card-img-top" style="margin-top: 5px;" src="./assets/images/weather_tracker.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Javascript Weather Tracker</h4>
+          <p class="card-text">Get the weather anywhere in the world and a 5 day forecast!</p>
+          <a href="https://github.com/Daelso/weather_tracker" id="card-link" class="btn btn-primary">Github</a>
+          <a href="https://daelso.github.io/weather_tracker/" id="card-link" class="btn btn-primary">Deployment</a>
 
-    <a href="https://github.com/CloudSixteen/HL2RP">
-        <img alt="Cloud Sixteen Gmod" src="./assets/images/hl2rp.png"
-        width="500" height="200">
-    </a>
-    <p id="wrapper" class="text_three">Created lua scripts for a Garry's Mod server.</p>
+        </div>
+      </div>
+        <div class="card" style="width: 25rem;">
+         <img class="card-img-top" style="margin-top: 5px;" src="./assets/images/codingquiz.png" alt="Card image cap">
+         <div class="card-body">
+           <h4 class="card-title">Short Coding Quiz</h4>
+           <p class="card-text">A short, timed coding quiz with high score tracking! Test your knowledge!</p>
+           <a href="https://github.com/Daelso/coding_quiz" id="card-link" class="btn btn-primary">Github</a>
+           <a href="https://daelso.github.io/coding_quiz/" id="card-link" class="btn btn-primary">Deployment</a>
+         </div>
+       </div>
 
-</section>
 
 <footer class="footer">
     
-    <p id="contact"> Created by Chase Murtaugh | <a href="https://github.com/Daelso">Github</a> | Contact me at 555-555-5555| <a href="mailto:Chasemurtaugh@gmail.com"> Chasemurtaugh@gmail.com</a>  <p>
+    <p id="contact"> Created by Chase Murtaugh | <a href="https://github.com/Daelso">Github</a> | <a href="https://www.linkedin.com/in/chase-murtaugh-71ba82109/">LinkedIn</a> | <a href="mailto:Chasemurtaugh@gmail.com"> Chasemurtaugh@gmail.com</a> | <a href="./assets/resume.pdf">Resume</a>  <p>
 
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>    
+<script src="./assets/script.js"></script>
 </body>
 </html>
