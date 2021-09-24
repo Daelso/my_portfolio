@@ -17,5 +17,5 @@ Click index.html or visit the deployment link!
 ![Alt text](https://i.gyazo.com/a0947cdee05a40238ae81f5b24b80191.png "Beirut weather and 5 day forecast")
 
 ## Deployment Link
-https://daelso.github.io/weather_tracker/
+https://daelso.github.io/my_portfolio/
 
