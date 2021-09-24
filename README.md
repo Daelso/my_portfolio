@@ -13,7 +13,7 @@ Click index.html or visit the deployment link!
 ## Deployment Link
 https://daelso.github.io/my_portfolio/
 
-##License
+## License
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
 "Software"), to deal in the Software without restriction, including
