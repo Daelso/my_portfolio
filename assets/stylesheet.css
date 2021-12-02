@@ -5,6 +5,10 @@
 html{
     scroll-behavior: smooth;
     overflow: scroll;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
 
 }
 
@@ -92,20 +96,11 @@ a img{
     word-wrap: normal;
 }
 
-.about_me{
-    font-size: 55%;
-    vertical-align: middle;
-    text-align: center;
-    margin-top: 10px;
-
-}
-
 .about_me h1{
-    font-size: 55%;
     vertical-align: middle;
     text-align: center;
     margin-top: 10px;
-    font: 1.3rem Inconsolata, monospace;
+    font: 1.5rem Inconsolata, monospace;
 
 }
 
@@ -114,7 +109,7 @@ a img{
     text-align: center;
     margin-top: 10px;
     font: Inconsolata, monospace;
-    font-size: 1rem;
+    font-size: 1.3rem;
     display: inline-block;
     padding-right: 250px;
     padding-left: 250px;
@@ -207,9 +202,14 @@ a img:hover{
 
 @media screen and (max-width: 750px) {
     .first_image,
-    .about_me
+    .about_me p,
+    .about_me h1
     {
-      font-size: 1em;
+      font-size: 2vw;
+      margin-left:auto;
+      margin-right:auto;
+      width: 750px;
+      text-align: center;
     }
   }
 
@@ -246,7 +246,7 @@ a img:hover{
 
 
       .card {
-        margin: 0 auto; /* Added */
+        margin: 25px auto; /* Added */
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
         background-color: #3d4249;
