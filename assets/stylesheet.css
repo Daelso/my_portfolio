@@ -22,7 +22,7 @@ header h1{
     text-align: center;
     color: white;
     vertical-align: middle;
-    font: 1.9rem Inconsolata, monospace;
+    font: 2vw Inconsolata, monospace;
 
 }
 
@@ -43,15 +43,6 @@ nav{
     margin-top: 10px;
     
 }
-
-#aboutme{
-    color: white;
-    font: 1.9rem Inconsolata, monospace;
-    flex-wrap: wrap;
-
-
-}
-
 
 footer{
     text-align: center;
@@ -96,23 +87,13 @@ a img{
     word-wrap: normal;
 }
 
-.about_me h1{
-    vertical-align: middle;
+.about_me{
+    clear:both;
+     margin: auto;
+    font: 1vw Inconsolata, monospace;
+    color: white;
     text-align: center;
-    margin-top: 10px;
-    font: 1.5rem Inconsolata, monospace;
 
-}
-
-.about_me p {
-    vertical-align: middle;
-    text-align: center;
-    margin-top: 10px;
-    font: Inconsolata, monospace;
-    font-size: 1.3rem;
-    display: inline-block;
-    padding-right: 250px;
-    padding-left: 250px;
 }
 
 a img:hover{
@@ -200,16 +181,25 @@ a img:hover{
 #wrapper:hover .text_three {
     visibility:visible;}   
 
+
+.card {
+        margin: 25px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        background-color: #3d4249;
+        font: 1.3rem Inconsolata, monospace;
+        color: white;
+}
+
 @media screen and (max-width: 750px) {
     .first_image,
     .about_me p,
     .about_me h1
     {
-      font-size: 2vw;
-      margin-left:auto;
-      margin-right:auto;
-      width: 750px;
-      text-align: center;
+        font-size: 3.2vw;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
     }
   }
 
@@ -220,39 +210,6 @@ a img:hover{
     }
   }
 
-  @media screen and (max-width: 899px) {
-    .pfp
-    {
-        margin-bottom: 50px;
-        margin-left: 5px;
-    }
-  }
-
-  @media screen and (max-width: 898px) {
-    .text, .text_two, .text_three
-    {   right: 300px;
-
-    }
-    }
-
-    @media screen and (max-width: 780px) {
-        .pfp
-        {
-            margin-bottom: 50px;
-            margin-left: 5px;
-            transform: scale(0.75, 0.75);
-        }
-      }
-
-
-      .card {
-        margin: 25px auto; /* Added */
-        float: none; /* Added */
-        margin-bottom: 10px; /* Added */
-        background-color: #3d4249;
-        font: 1.3rem Inconsolata, monospace;
-        color: white;
-}
 
 #card-link{
 background-color: var(--background);
