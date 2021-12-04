@@ -23,6 +23,9 @@ header h1{
     color: white;
     vertical-align: middle;
     font: 2.5vw Inconsolata, monospace;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 
 }
 
