@@ -192,7 +192,13 @@ a img:hover{
         background-color: #3d4249;
         font: 1.3rem Inconsolata, monospace;
         color: white;
+        transition: transform .2s;
 }
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); 
+    transform: scale(1.05);
+  }
 
 @media screen and (max-width: 750px) {
     .first_image,
